@@ -1,0 +1,15 @@
+STARTUP RUN:
+node bot.js
+
+
+JIKA RUN BOT VIA TERMUX:
+
+pkg update && pkg upgrade -y
+
+pkg install git nodejs -y
+
+git clone https://github.com/NvidiaFR3/tools-nvidia
+
+cd tools-nvidia
+
+node bot.js
